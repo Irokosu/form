@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      body {
+        background-image: url(background.jpg);
+      }
+      form {
+        background-color: gold;
+        width: 30%;
+        border-radius: 5px;
+      }
+      .shadow {
+        justify-content: center;
+      }
+      label {
+        color: rgb(12, 1, 1);
+      }
+      div {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+      }
+      .box {
+        background-color: seagreen;
+        border-top-right-radius: 100px;
+      }
+      .shadow {
+        box-shadow: 5px 10px rgb(22, 247, 56);
+      }
+    </style>
+  </head>
+  <body>
+    <form class="shadow">
+      <label for="name"> Name </label> <br />
+      <input type="text" class="name" /> <br />
+      <br />
+      <label for="E-mail"> E-mail </label> <br />
+      <input type="text" placeholder="example@email.com" /> <br />
+      <br />
+      <label for="Password"> Password </label> <br />
+      <input type="password" value="FakePSW" /> <br />
+      <br />
+      <input type="submit" value="Sbmit" />
+      <br />
+      <br />
+    </form>
+
+    <div></div>
+    <div class="box"></div>
+  </body>
+</html>
